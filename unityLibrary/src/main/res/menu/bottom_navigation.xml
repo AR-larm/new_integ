@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_Information"
+        android:enabled="true"
+        android:icon="@drawable/ic_event_black_24dp"
+        android:title="Information"/>
+
+    <item
+        android:id="@+id/action_Alarm"
+        android:enabled="true"
+        android:icon="@drawable/ic_access_alarm_black_24dp"
+        android:title="Alarm"/>
+
+    <item
+        android:id="@+id/action_Statistic"
+        android:enabled="true"
+        android:icon="@drawable/ic_assessment_black_24dp"
+        android:title="Statistic"/>
+
+    <item
+        android:id="@+id/action_Syssetting"
+        android:enabled="true"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="System Setting"/>
+
+</menu>

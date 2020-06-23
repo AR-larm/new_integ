@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/ARlarm_back"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:paddingTop="20dp"
+
+        android:orientation="vertical"
+        android:elevation="8dp">
+
+        <Button
+            android:id="@+id/header_button"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/sa_header_rectangle"
+
+            android:elevation="8dp"
+
+            android:text="AR-LARM"
+            android:fontFamily="@font/cocogoose"
+            android:textAlignment="center"
+            android:textColor="@color/ARlarm_blue"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/alarm_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="50dp"
+        android:scrollbars="horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <!-- add button area -->
+        <FrameLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp">
+            <Button
+                android:id="@+id/newalarm_button"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/sa_header_rectangle"
+                android:layout_gravity="center"
+                android:elevation="8dp" />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_plus"
+                android:layout_gravity="center"
+                android:elevation="10dp"/>
+        </FrameLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
